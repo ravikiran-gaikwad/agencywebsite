@@ -16,6 +16,7 @@ html{
 
 body{
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .heading, .clients .section-header h2, .section-head h1, .testimonials .section-header h2, .section-head-1 h4{
