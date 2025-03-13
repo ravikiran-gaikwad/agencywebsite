@@ -108,12 +108,27 @@ body{
     position: fixed;
 }
 
-.header .logo img{
-    width: 130%;
-    height: 10rem;
-    top: 0;
-    left: 0;
+.header .logo img {
+    width: 100%;
+    height: auto;
+    max-height: 10rem;
 }
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+    .header .logo img {
+        width: 80%;
+        max-height: 8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .header .logo img {
+        width: 70%;
+        max-height: 6rem;
+    }
+}
+
 
 .header .navbar ul{
     list-style-type: none;
