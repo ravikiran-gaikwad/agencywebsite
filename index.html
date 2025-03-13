@@ -15,7 +15,31 @@
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <style>
+        .whatsapp-button {
+          position: fixed;
+          bottom: 80px;
+          right: 10px;
+          background-color: #25D366;
+          color: white;
+          font-size: 30px;
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+          text-decoration: none;
+          z-index: 1000;
+        }
+      
+        .whatsapp-button:hover {
+          background-color: #1ebe5d;
+        }
+      </style>
     <script src="./js/main.js"></script>
 </head>
 <body>
@@ -58,61 +82,70 @@
 
   <div class="pt-5 pb-5" style="background-color: #f2f2f2;">
     <div class="container">
-      <div class="row">
-        <div class="section-head col-sm-12" id="service">
-          <h1>Our Services</h1>
-          <p>We help you to build high-quality digital solutions and products as well as deliver a wide range of related professional services. We are providing world-class service to our clients.
-            </p>
-        </div>
-        
-        <div class="col-lg-4 col-sm-6">
-          <div class="item"> <span class="icon feature_box_col_three"><i class="fa fa-magic"></i></span>
-            <h6>Digital Marketing</h6>
-            <p>Our digital marketing services encompass SEO, content marketing, and social media engagement strategies that help increase visibility and customer engagement on online platforms. We utilize data-driven approaches to optimize campaigns, ensuring maximum reach and effectiveness in connecting with your target audience.</p>
-
+        <div class="row">
+          <div class="section-head col-sm-12" id="service">
+            <h1 class="text-danger">Our Services</h1>
+            <p>We help businesses build high-quality digital solutions and products, offering a wide range of professional services to accelerate growth and enhance online presence.</p>
           </div>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-            <div class="item"> <span class="icon feature_box_col_one"><i class="fa fa-laptop"></i></span>
-              <h6>Google ads and meta ads</h6>
-              <p>With Google Ads, we provide targeted advertising that delivers measurable results, helping you reach a wider audience through effective keyword research and ad optimization. Our team continuously monitors and adjusts campaigns to maximize ROI and ensure your ads are seen by the right people at the right time.</p>
-
+      
+          <div class="col-lg-4 col-sm-6">
+            <div class="item">
+              <span class="icon feature_box_col_three"><i class="fa fa-magic"></i></span>
+              <h6>Digital Marketing</h6>
+              <p>Strategic online marketing solutions, including SEO, email marketing, and social media campaigns to drive traffic and conversions.</p>
             </div>
           </div>
+      
           <div class="col-lg-4 col-sm-6">
-            <div class="item"> <span class="icon feature_box_col_two"><i class="fa fa-android"></i></span>
+            <div class="item">
+              <span class="icon feature_box_col_one"><i class="fa fa-laptop"></i></span>
+              <h6>Google Ads & Meta Ads</h6>
+              <p>Targeted advertising campaigns on Google and Meta (Facebook & Instagram) to maximize reach and ROI.</p>
+            </div>
+          </div>
+      
+          <div class="col-lg-4 col-sm-6">
+            <div class="item">
+              <span class="icon feature_box_col_two"><i class="fa fa-user"></i></span>
               <h6>Personal Branding</h6>
-              <p>We specialize in creating multi-platform mobile app solutions for both Android and iOS devices, utilizing technologies like React Native and Flutter to ensure smooth performance. Our apps are designed with user experience in mind, ensuring intuitive navigation and engaging interfaces that keep users coming back.</p>
-
+              <p>Helping individuals establish a strong online presence through branding strategies, content creation, and engagement techniques.</p>
             </div>
           </div>
+      
           <div class="col-lg-4 col-sm-6">
-            <div class="item"> <span class="icon feature_box_col_one"><i class="fa fa-laptop"></i></span>
+            <div class="item">
+              <span class="icon feature_box_col_one"><i class="fa fa-code"></i></span>
               <h6>Web App Development</h6>
-              <p>Our web app development services include creating scalable and responsive applications tailored to your business needs, whether it's an e-commerce platform or a custom solution. We focus on building secure, high-performance applications that enhance productivity and streamline operations.</p>
-
+              <p>Custom web application development tailored to your business needs, ensuring high performance and user experience.</p>
             </div>
           </div>
+      
           <div class="col-lg-4 col-sm-6">
-            <div class="item"> <span class="icon feature_box_col_two"><i class="fa fa-android"></i></span>
+            <div class="item">
+              <span class="icon feature_box_col_two"><i class="fa fa-mobile"></i></span>
               <h6>Mobile App Development</h6>
-              <p>We have expertise in creating multi-platform mobile app solutions for both Android and iOS devices. Using PhoneGap, Xamarin, and React Native, we offer custom mobile apps that run smoothly on multiple platforms. Our development process emphasizes quality assurance and user feedback to deliver apps that meet and exceed client expectations.</p>
+              <p>Designing and developing mobile applications for Android & iOS that enhance user engagement and functionality.</p>
             </div>
           </div>
+      
           <div class="col-lg-4 col-sm-6">
-            <div class="item"> <span class="icon feature_box_col_two"><i class="fa fa-android"></i></span>
-              <h6>Content</h6>
-              <p>We have expertise in creating multi-platform mobile app solutions for both Android and iOS devices. Using PhoneGap, Xamarin, and React Native, we offer custom mobile apps that run smoothly on multiple platforms. Our development process emphasizes quality assurance and user feedback to deliver apps that meet and exceed client expectations.</p>
+            <div class="item">
+              <span class="icon feature_box_col_three"><i class="fa fa-pencil"></i></span>
+              <h6>Content Creation</h6>
+              <p>High-quality content for blogs, websites, and social media to boost engagement and brand authority.</p>
             </div>
           </div>
+      
           <div class="col-lg-4 col-sm-6">
-            <div class="item"> <span class="icon feature_box_col_two"><i class="fa fa-android"></i></span>
+            <div class="item">
+              <span class="icon feature_box_col_three"><i class="fa fa-video-camera"></i></span>
               <h6>Video Editing</h6>
-              <p>We have expertise in creating multi-platform mobile app solutions for both Android and iOS devices. Using PhoneGap, Xamarin, and React Native, we offer custom mobile apps that run smoothly on multiple platforms. Our development process emphasizes quality assurance and user feedback to deliver apps that meet and exceed client expectations.</p>
+              <p>Professional video editing for social media, ads, and promotional content, making your visuals stand out.</p>
             </div>
           </div>
+        </div>
       </div>
-    </div>
+      
 </div>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -143,7 +176,7 @@
     </div>
 </section>
 
-<div class="pt-5 pb-5">
+<!-- <div class="pt-5 pb-5">
     <div class="container justify-content-center">
       <div class="row">
         <div class="section-head-1 col-sm-12" style="text-align: center;">
@@ -176,13 +209,13 @@
         </div>
       </div>
     </div>
-</div>
+</div> -->
 
-<div class="communicate">
+<!-- <div class="communicate">
     <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
     <p>Lorem ipsum dolor sit amet.</p>
     <a href="#contact"><button class="btn">Contact Now</button></a>
-</div>
+</div> -->
 
 <!-- <div class="testimonials mt-100">
     <div class="container">
@@ -268,7 +301,7 @@
         <div class="section-header">
             <h2>Our Clients</h2>
             <p>
-                We don't just build softwares, we build your business.
+                
             </p>
         </div>
         <div class="owl-carousel clients-carousel">
@@ -299,16 +332,16 @@
   <div class="row">
       <div class="card">
           <div class="image">
-              <img src="./images/pexels-andrea-piacquadio-845434.jpg" alt="Team member 1">
+              <img src="./images/1.jpeg" alt="Team member 1">
           </div>
           <div class="info">
             <h3>Purushottam Gaikwad</h3>
             <span>Digital Marketer</span>
               <div class="icons">
-                  <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
-                  <a href="https://twitter.com/login" class="fab fa-twitter"></a>
-                  <!-- <a href="https://www.instagram.com/" class="fab fa-instagram"></a> -->
-                  <a href="https://www.linkedin.com/" class="fab fa-linkedin"></a>
+                  <a href="https://www.facebook.com/gaikwad.purushottam" class="fab fa-facebook-f"></a>
+                  <!-- <a href="https://twitter.com/login" class="fab fa-twitter"></a> -->
+                  <a href="https://www.instagram.com/puroshottamaa/" class="fab fa-instagram"></a>
+                  <a href="https://www.linkedin.com/in/purushottam-gaikwad-339135112/" class="fab fa-linkedin"></a>
               </div>
           </div>
       </div>
@@ -350,16 +383,16 @@
   <div class="row">
       <div class="card">
           <div class="image">
-              <img src="./images/pexels-andrea-piacquadio-745136.jpg" alt="Team member 1">
+              <img src="./images/2.jpg" alt="Team member 1">
           </div>
           <div class="info">
               <h3>Ravikiran Gaikwad</h3>
               <span>Web Developer</span>
               <div class="icons">
-                  <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+                  <a href="https://www.facebook.com/ravikiran.gaikwad.5/" class="fab fa-facebook-f"></a>
                   <!-- <a href="https://twitter.com/login" class="fab fa-twitter"></a> -->
-                  <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
-                  <a href="https://www.linkedin.com/" class="fab fa-linkedin"></a>
+                  <a href="https://www.instagram.com/ravikirangaikwad19" class="fab fa-instagram"></a>
+                  <a href="https://www.linkedin.com/ravikirangaikwad19" class="fab fa-linkedin"></a>
               </div>
           </div>
       </div>
@@ -371,7 +404,7 @@
 </section>
 <div class="contact-in">
     <div class="contact-map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.087468149726!2d73.797172!3d18.4796968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bfd5716aecf3%3A0xd0c02e26f8639084!2sDnyanesh%20Society!5e0!3m2!1sen!2sin!4v1741693827674!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.087468149726!2d73.797172!3d18.4796968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bfd5716aecf3%3A0xd0c02e26f8639084!2sDnyanesh%20Society!5e0!3m2!1sen!2sin!4v1741693827674!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <div class="contact-form">
         <form action="./contactme.php" method="POST">
@@ -477,15 +510,15 @@
                           63/2 Dnyanesh Society<br>
                           Warje pune<br>
                           Maharashtra,India<br>
-                          <strong>Phone:</strong> +123-456-7890<br>
-                          <strong>Email:</strong> info@example.com<br>
+                          <strong>Phone:</strong> 8237431432,9699897695 <br>
+                          <strong>Email:</strong> brosyncmarketing@gmail.com<br>
                       </p>
 
                       <div class="social-links">
-                          <a href="https://www.facebook.com/"><i class="ion-logo-facebook"></i></a>
+                          <a href="https://www.facebook.com/brosyncmarketing"><i class="ion-logo-facebook"></i></a>
                           <!-- <a href="https://twitter.com/login?lang=en"><i class="ion-logo-twitter"></i></a> -->
-                          <a href="https://www.linkedin.com/"><i class="ion-logo-linkedin"></i></a>
-                          <a href="https://www.instagram.com/"><i class="ion-logo-instagram"></i></a>
+                          <a href="https://www.linkedin.com/brosyncmarketing"><i class="ion-logo-linkedin"></i></a>
+                          <a href="https://www.instagram.com/brosyncmarketing"><i class="ion-logo-instagram"></i></a>
                       </div>
 
                   </div>
@@ -510,7 +543,10 @@
           </div>
       </div>
   </div>
+  <a href="https://wa.me/918237431432" target="_blank" class="whatsapp-button">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
 
-  <a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>
+
 </body>
 </html>

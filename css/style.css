@@ -84,14 +84,14 @@ body{
 .row .btn:hover{
     letter-spacing: .1rem;
     opacity: .9;
-    color: white;
+    color: black;
     background: #002e5f;
 }
 
 .communicate .btn:hover{
     letter-spacing: .1rem;
     opacity: .9;
-    color: white;
+    color: black;
     background: #00bfff;
 }
 
@@ -163,12 +163,12 @@ body{
 }
 
 .home h1{
-    color: #fff;
+    color: #ffffff;
     font-size: 5.5rem;
 }
 
 .home h2{
-    color: #fff;
+    color:#fdfdfd;
     font-size: 3rem;
 }
 
@@ -637,13 +637,13 @@ body{
 
 .team .row .card .image{
     margin: 1rem 0;
-    padding-top: 4rem;
+    padding-top: 2rem;
 }
 
 .team .row .card .image img{
     height: 13rem;
     width: 13rem;
-    border-radius: 50%;
+    border-radius: 5%;
     border: .5rem solid #fff;
     box-shadow: 0 0 .5rem rgba(0,0,0,.3);
     object-fit: cover;
